@@ -1,0 +1,173 @@
+* {
+	list-style-type: none;
+}
+
+/*****************************
+	GENERAL
+ *****************************/
+ a {
+	text-decoration: none;
+}
+
+
+/*****************************
+	HEADER
+ *****************************/
+
+header {
+	float: left;
+	margin: 0 auto;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+h1 {
+	margin: 15px 0;
+	font-size: 3em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+h2 {
+	font-size: 2em;
+	margin: -5px 0 0;
+	font-weight: normal;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+}
+
+
+/*****************************
+	NAVIGATION
+ *****************************/
+
+nav {
+ 	text-align: center;
+ 	padding: 10px 0;
+ 	margin: 20px 0 0;
+ 	font-size: 1.5em;
+ }
+
+ nav ul {
+ 	margin: 0 10px;
+ 	padding: 0;
+ }
+
+ nav li {
+ 	display: inline-block;
+ }
+
+ nav a {
+ 	font-weight: 400;
+ 	padding: 15px 100px;
+ }
+
+/*****************************
+	FOOTER
+ *****************************/
+ footer {
+ 	padding-top: 50px;
+ 	float: right;
+ 	margin-top: 480px;
+ }
+
+ /*****************************
+  PAGE: PORTFOLIO
+ *****************************/
+
+ .icon {
+ 	width: 40px;
+ 	height: 40px;
+ 	margin: 0 10px;
+ }
+
+ .image {
+ 	display: block;
+    margin-left: auto;
+    margin-right: auto
+ }
+
+ #pFooter {
+ 	margin-top: 145px;
+ }
+
+ /*****************************
+	PAGE: ABOUT
+ *****************************/
+
+/* Font and Color for About */
+p, .fontList {
+	color: #00C4E5;
+	font-family: 'Cinzel', serif;
+	text-align: center;
+}
+.headShadow {
+	color: #fff;
+ 	text-shadow: 2px 2px 8px #00C4E5;
+ }
+
+ /* About Footer */
+#aboutFooter {
+	margin-top: 0px;
+}
+
+/**********************************
+PAGE: CONTACT
+***********************************/
+
+#contactFooter {
+	margin-top: 227px;
+}
+
+/**********************************
+PAGE: BLOG
+***********************************/
+
+#blogFooter {
+	margin-top: 347px;
+}
+/*****************************
+	COLORS
+ *****************************/
+
+/* Blue Header */
+header {
+	background-color: #00A3BF;
+	border-color: #006D7F;
+	text-shadow: 2px 2px 8px #000;
+	font-family: 'Lobster', cursive;
+}
+
+/* Portfolio Body */
+body {
+	background-color: black;
+}
+
+/* Logo Text */
+h1 {
+	color: #fff;
+}
+
+/* Nav Background on Mobile */
+nav {
+	background: #006D7F;
+}
+
+/* Nav Links */
+nav a, nav a:visited {
+	color: #fff
+}
+
+nav a:hover, nav a.selected, p, h2 {
+	color: #00C4E5;
+}
+
+/* Footer Background */
+
+
+
