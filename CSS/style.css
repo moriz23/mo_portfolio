@@ -59,7 +59,7 @@ nav {
  }
 
  nav li {
- 	display: block;
+ 	display: inline-block;
  }
 
  nav a {
