@@ -1,1 +1,1 @@
-<?php require('home.html'); ?>
+<?php require('portfolio.html'); ?>

@@ -9,10 +9,6 @@
 	text-decoration: none;
 }
 
-body {
-
-}
-
 
 /*****************************
 	HEADER
@@ -50,7 +46,7 @@ h2 {
 	NAVIGATION
  *****************************/
 
- nav {
+nav {
  	text-align: center;
  	padding: 10px 0;
  	margin: 20px 0 0;
@@ -63,7 +59,7 @@ h2 {
  }
 
  nav li {
- 	display: inline-block;
+ 	display: block;
  }
 
  nav a {
@@ -75,13 +71,14 @@ h2 {
 	FOOTER
  *****************************/
  footer {
- 	font-size: 0.75em;
- 	text-align: center;
  	padding-top: 50px;
- 	color: #ccc;
  	float: right;
  	margin-top: 480px;
  }
+
+ /*****************************
+  PAGE: PORTFOLIO
+ *****************************/
 
  .icon {
  	width: 40px;
