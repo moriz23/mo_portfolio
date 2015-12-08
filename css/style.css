@@ -130,6 +130,25 @@ PAGE: BLOG
 #blogFooter {
 	margin-top: 347px;
 }
+
+/**********************************
+PAGE: GITHUB
+***********************************/
+.list-group {
+	padding-top: 30px;
+	font-family: 'Cinzel', serif;
+	color: #00C4E5 
+}
+
+tbody, thead {
+	font-family: 'Cinzel', serif;
+	color: #fff 
+}
+
+
+
+
+
 /*****************************
 	COLORS
  *****************************/

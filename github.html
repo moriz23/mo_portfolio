@@ -3,18 +3,55 @@
 <head>
   <meta charset="utf-8">
   <title>Mohammed Rizvi | Full Stack Developer</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="normalize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link href='https://fonts.googleapis.com/css?family=Lobster|Cinzel:700' rel='stylesheet' type='text/css'>
 </head>
 <body>
+<header>
+    <a href="portfolio.html" id="logo">
+      <h1>Mohammed Rizvi Portfolio</h1> 
+    </a>
+    <nav>
+      <ul> 
+        <li> <a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="github.html" class="selected">GitHub</a></li>
 
-  <footer id="pFooter">
-    <a href="https://www.linkedin.com/in/morizvi03"><img src="img/link.png" alt="Linkedin Logo" class="icon"></a>
-    <a href="https://github.com/moriz23"><img src="img/github.png" alt="Github Logo" class="icon"></a>
-    <a href="http://stackoverflow.com/users/4980341/morizvi23"><img src="img/flow.png" alt="Stack Overflow Logo" class="icon"></a>
-    <a href="https://soundcloud.com/empr_beats"><img src="img/cloud.png" alt="SoundCloud Logo" class="icon"></a>
-    <!--<p>&copy; 2015 Mohammed Rizvi.</p>-->
-  </footer>
+      </ul>
+    </nav>
+  </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="list-group">
+          </div>
+        </div>
+        <div class="col-md-9 table-responsive">
+          <table class="table">
+            <thead>
+              <th>sha</th>
+              <th>Author</th>
+              <th>Message</th>
+              <th>Date</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>23412</td>
+                <td>Mohammed Rizvi</td>
+                <td>Added css to your mom</td>
+                <td>12/05/2015</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js" ></script>
+  <script src="js/repos.js"></script>
+  <script src="js/commits.js"></script>
 </body>
 </html>
