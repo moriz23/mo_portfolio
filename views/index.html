@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<title>Rock, Paper, Scissors</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="RPS_css/styles.css">
+  <link rel="stylesheet" href="RPS_css/animations.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container-fluid">
+      <h1>Rock, Paper, Scissors</h1>
+      <h2> <a href="portfolio.html">Portfolio</a></h2>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="col-md-4">
+      <h2>User Score: <span class="userScore">0</span></h2>
+    </div>
+    <div class="col-md-4">
+      <h2>Computer Score: <span class="computerScore">0</span></h2>
+    </div>
+    <div class="col-md-4">
+      <h2>Round: <span class="round">1</span></h2>
+    </div>
+  </div>
+  <div class="row">
+    <div id="object" class="slideUp">
+    <div class="col-md-4 text-center">
+        <a href="#" id="Rock" ><i class="icons fa fa-hand-rock-o fa-5x slideRight"></i></a>
+    </div>
+     <div class="col-md-4 text-center">
+        <a href="#" id="Paper" ><i class="icons fa fa-hand-paper-o fa-5x expandUp"></i></a>
+    </div>
+     <div class="col-md-4 text-center">
+        <a href="#" id="Scissors" ><i class="icons fa fa-hand-scissors-o fa-5x slideLeft"></i></a>
+    </div>
+    </div>
+  </div>
+  <div class="row">
+     <button type="button" class="btn btn-default btn-lg pulse">Start Game</button>
+  </div>
+  <div class="modal fade bs-example" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title"></h4>
+        </div>
+        <div class="modal-body">
+          <p></p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-success" data-dismiss="modal" id="close">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/rps.js"></script>
+</body>
+</html>

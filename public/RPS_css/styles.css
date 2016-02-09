@@ -1,0 +1,38 @@
+body {
+  background-color: #000;
+}
+
+.navbar {
+  background-color: #00FF36;
+}
+
+
+h2 {
+  text-align: center;
+   color: #00FF36;
+}
+
+h1 {
+  text-align: center;
+  color: #000; 
+}
+
+.icons {
+  margin-top: 100px;
+  font-size: 200px;
+  color: #00FF36;
+}
+
+#yo {
+  width: 100%;
+}
+
+.btn-default {
+  margin-left: 700px;
+  margin-top: 250px;
+  background-color: #00FF36; 
+}
+
+#reset {
+  background-color: #000;
+}
