@@ -1,2 +1,2 @@
-# clickGame
-Clicking on faces at a given time limit
+# Deploying my portfolio by using node express, body-parse, and sessions
+
