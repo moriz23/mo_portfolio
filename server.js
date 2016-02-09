@@ -11,6 +11,10 @@ app.use("/clickGame", express.static("public/clickGame"));
 app.use("/RPS_css", express.static("public/RPS_css"))
 
 
+app.get('/', function(req, res) {
+  res.sendFile(process.cwd() + '/views/portfolio.html');
+});
+
 app.get('/portfolio.html', function(req, res) {
   res.sendFile(process.cwd() + '/views/portfolio.html');
 });
